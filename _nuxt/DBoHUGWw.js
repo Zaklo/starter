@@ -1,0 +1,1 @@
+import{C as e,f as s,k as c,P as l}from"./BqBWQs9M.js";const t={class:"block"},n=e({__name:"Block",setup(a){return console.log("hello block"),(o,r)=>(c(),s("div",t,[l(o.$slots,"default")]))}}),k=Object.assign(n,{__name:"Block"});export{k as default};
