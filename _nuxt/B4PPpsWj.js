@@ -1,0 +1,1 @@
+import{C as e,f as s,k as t,P as c,_ as a}from"./BlLQ5Jyq.js";const l={class:"block"},n=e({__name:"Block",setup(_){return console.log("hello block"),(o,r)=>(t(),s("div",l,[c(o.$slots,"default",{},void 0,!0)]))}}),p=Object.assign(a(n,[["__scopeId","data-v-02f63556"]]),{__name:"Block"});export{p as default};
