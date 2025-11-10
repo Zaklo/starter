@@ -8,4 +8,14 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   compatibilityDate: '2024-04-03',
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `@use "include-media/dist/include-media" as *;`
+        }
+      }
+    }
+  },
+  css: ["~/assets/styles/index.scss"],
 })

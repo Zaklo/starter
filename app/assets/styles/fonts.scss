@@ -1,0 +1,27 @@
+:root {
+  --font-family-body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  text-transform: uppercase;
+  font-family: var(--font-family-body), sans-serif;
+  color: var(--black);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/HelveticaNeue/HelveticaNeue-Bold.woff2') format('woff2');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/HelveticaNeue/HelveticaNeue-Regular.woff2') format('woff2');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
